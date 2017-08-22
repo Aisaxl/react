@@ -21,7 +21,9 @@
 
 ### 03
 
-* [03-01](https://github.com/Aisaxl/react#03-01) Git提交文件五大步骤：
+* [03-01](https://github.com/Aisaxl/react#03-01) Git提交文件五大步骤
+* [03-02](https://github.com/Aisaxl/react#03-02) Npm
+* [03-03](https://github.com/Aisaxl/react#03-03) Webpack
 
 ---
 # 学习进度
@@ -58,3 +60,27 @@
 * Git remote rm origin  "远程地址（将远程上的地址拉下来）"
 * Git  pull origin master 
 * Git  pash origin master
+
+## 03-02
+### npm
+#### npm init项目初始化
+	每一个npm包都必须有一个package.json文件。只需要执行npm init即可，以交互方式完成package.json的创建。
+	npm install(简写npm i)的三个选项 
+	* -global 简写 -g
+  * -save   简写 -S
+  * -save-dev 简写 -D
+  
+#### 项目依赖包案装
+  sudo npm install save react react-dom babelify babel-parset-react
+	npm install --save babel-prese es2015
+  
+## 03-03
+### webpack安装
+* npm install -g webpack (webpack安装)
+* npm install -g webpack-dev-server (开发的服务器)
+#### webpack插件
+* npm install webpack-dev-server　--save
+* npm install webpack --save
+* npm install --save babel-preset-react
+* npm install babel-loader --save
+
