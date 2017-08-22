@@ -20,6 +20,8 @@
 * [02-02](https://github.com/TYRMars/ReactLearn#02-02) `其他知识梳理`
 * [02-03](https://github.com/TYRMars/ReactLearn#02-03) `其他知识梳理-利用babel把ES5转化为ES6`
 
+### 03
+  * [03-01](https://github.com/TYRMars/ReactLearn#03-01) Git提交文件五大步骤：
 
 ---
 # 学习进度
@@ -48,5 +50,11 @@
 * CSS
 * 相关知识请看我的博客前端开发基础知识部分[科技干货-Blog](http://www.kejiganhuo.tech)
 
-## 02-03
-### 其他知识梳理-利用babel把ES6转化为ES5
+## 03-01
+### Git提交文件五大步骤
+* Git init 命令把这个目录变成Git可以管理的仓库
+* Git add "文件名"  将文件添加到仓库
+* Git commit -a -m "文件信息" 将文件提交到仓库
+* Git remote rm origin  "远程地址（将远程上的地址拉下来）"
+* Git  pull origin master 
+* Git  pash origin master
