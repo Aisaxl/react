@@ -79,6 +79,7 @@
 ### webpack安装
 * npm install -g webpack (webpack安装)
 * npm install -g webpack-dev-server (开发的服务器)
+
 #### webpack插件
 * npm install webpack-dev-server　--save
 * npm install webpack --save
@@ -86,7 +87,7 @@
 * npm install babel-loader --save
 
 ### webpack运行
-   * webpack
-   * webpack-dev-server (查看运行地址)
+* webpack
+* webpack-dev-server (查看运行地址)
 
 
