@@ -99,3 +99,31 @@
 
 * 虚拟 DOM 是一个 JavaScript 的树形结构，包含了 React 元素和模块。组件的 DOM 结构就是映射到对应的虚拟 DOM 上，React 通过渲染虚拟 DOM 到浏览器，使得用户界面得以显示。与此同时，React 在虚拟的 DOM 上实现了一个 diff 算法，当要更新组件的时候，会通过 diff 寻找到要变更的 DOM 节点，再把这个修改更新到浏览器实际的 DOM 节点上，所以在 React 中，当页面发生变化时实际上不是真的渲染整个 DOM
 * React 虚拟 DOM 中的诸多如 div 一类的标签与实际 DOM 中的 div 是相互独立的两个概念，它是一个纯粹的 JS 数据结构，它只是提供了一个与 DOM 类似的 Tag 和 API。React 会通过自身的逻辑和算法，转化为真正的 DOM 节点。也正是因为这样的结构，虚拟 DOM 的性能要比原生 DOM 快很多。
+
+
+## 07-02
+### 组件概念
+* 组件是`React`的基石，所有的`React`应用程序都是基于组件的。
+* 之前`React`组件，使用`React.createClass`来进行声明
+* 组件的return函数返回的HTML节点必需只有一个
+* 可以给外部使用的组件定义：export default class ComponentHeader extends React.Component();
+* 入口的定义ReactDOM.render(<Index>,document.getElementById('example'));
+var React = require('react');
+var ReactDOM = require('react-dom');
+import ComponentHeader from './components/header';//加载header模块
+class Index extends React.Component {
+	render() {//数据进来首先执行render渲染基本页面组件
+		return (
+			<div>
+				<ComponentHeader/>
+				<h2>页面的主体内容</h2>
+			</div>
+		);
+	}
+}
+ReactDOM.render(
+<Index/>, document.getElementById('example'));
+	
+### 组件（部分功能）
+* export用于对外输出本模块（一个文件可以理解为一个模块）变量的接口
+* import用于在一个模块中加载另一个含有export接口的模块。
