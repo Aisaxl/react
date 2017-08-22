@@ -21,7 +21,8 @@
 * [02-03](https://github.com/TYRMars/ReactLearn#02-03) `其他知识梳理-利用babel把ES5转化为ES6`
 
 ### 03
-  * [03-01](https://github.com/TYRMars/ReactLearn#03-01) Git提交文件五大步骤：
+
+* [03-01](https://github.com/TYRMars/ReactLearn#03-01) Git提交文件五大步骤：
 
 ---
 # 学习进度
