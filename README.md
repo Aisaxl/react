@@ -66,13 +66,14 @@
 #### npm init项目初始化
 	每一个npm包都必须有一个package.json文件。只需要执行npm init即可，以交互方式完成package.json的创建。
 	npm install(简写npm i)的三个选项 
-	* -global 简写 -g
+	
+  * -global 简写 -g
   * -save   简写 -S
   * -save-dev 简写 -D
   
 #### 项目依赖包案装
-  sudo npm install save react react-dom babelify babel-parset-react
-	npm install --save babel-prese es2015
+ * sudo npm install save react react-dom babelify babel-parset-react
+ * npm install --save babel-prese es2015
   
 ## 03-03
 ### webpack安装
