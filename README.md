@@ -108,6 +108,7 @@
 * 组件的return函数返回的HTML节点必需只有一个
 * 可以给外部使用的组件定义：export default class ComponentHeader extends React.Component();
 * 入口的定义ReactDOM.render(<Index>,document.getElementById('example'));
+```JavaScript
 var React = require('react');
 var ReactDOM = require('react-dom');
 import ComponentHeader from './components/header';//加载header模块
@@ -123,7 +124,7 @@ class Index extends React.Component {
 }
 ReactDOM.render(
 <Index/>, document.getElementById('example'));
-	
+```	
 ### 组件（部分功能）
 * export用于对外输出本模块（一个文件可以理解为一个模块）变量的接口
 * import用于在一个模块中加载另一个含有export接口的模块。
