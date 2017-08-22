@@ -18,7 +18,6 @@
 
 * [02-01](https://github.com/Aisaxl/react#02-01) `React简介`
 * [02-02](https://github.com/Aisaxl/react#02-02) `其他知识梳理`
-* [02-03](https://github.com/Aisaxl/react#02-03) `其他知识梳理-利用babel把ES5转化为ES6`
 
 ### 03
 
