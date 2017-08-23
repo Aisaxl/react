@@ -238,3 +238,8 @@ ReactDOM.render( <Index /> , document.getElementById('example'));
 ```
 
 * 在浏览器的开发者工具中就可以看到`console`,如下图
+
+
+## 08-01
+### State属性
+* state 是组件内部的属性。组件本事是一个状态机，它可以在constructor中通过this.state直接定义它的值，然后根据这些值来渲染不同的UI。当state的值发生改变时，可以通过this.setState方法让组件再次调用render方法，来渲染新的UI。当state的值发生改变时，可以通过this.setState方法再次调用render方法，来渲染新的UI。
