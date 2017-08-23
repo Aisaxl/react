@@ -245,7 +245,7 @@ ReactDOM.render( <Index /> , document.getElementById('example'));
 * state 是组件内部的属性。组件本身是一个状态机，它可以在constructor中通过this.state直接定义它的值，然后根据这些值来渲染不同的UI。当state的值发生改变时，可以通过this.setState方法让组件再次调用render方法，来渲染新的UI。
 
 ### 使用事例
-、、、Javascript
+```JavaScript
 import React from 'react';
 export default class BodyIndex extends React.Component {
   constructor() {
@@ -269,4 +269,5 @@ export default class BodyIndex extends React.Component {
     )
   }
 }
-、、、
+```
+*可以用Chorme React组件中查看到state只会在相应的模块中有值，不会影响到其他模块。它属于模块自身属性。
