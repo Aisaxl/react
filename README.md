@@ -242,4 +242,31 @@ ReactDOM.render( <Index /> , document.getElementById('example'));
 
 ## 08-01
 ### State属性
-* state 是组件内部的属性。组件本事是一个状态机，它可以在constructor中通过this.state直接定义它的值，然后根据这些值来渲染不同的UI。当state的值发生改变时，可以通过this.setState方法让组件再次调用render方法，来渲染新的UI。当state的值发生改变时，可以通过this.setState方法再次调用render方法，来渲染新的UI。
+* state 是组件内部的属性。组件本身是一个状态机，它可以在constructor中通过this.state直接定义它的值，然后根据这些值来渲染不同的UI。当state的值发生改变时，可以通过this.setState方法让组件再次调用render方法，来渲染新的UI。
+
+### 使用事例
+、、、Javascript
+import React from 'react';
+export default class BodyIndex extends React.Component {
+  constructor() {
+    super(); //调用基类的所有的初始化方法
+    this.state = {
+      username: "Parry",
+      age:20
+    };//初始化赋值
+  }
+  render() {
+    setTimeout(() => {
+      //更改state的时候
+      this.setState({username: "IMOOC",age:30})
+    }, 4000);
+
+    return (
+      <div>
+        <h2>页面主题内容</h2>
+        <p>{this.state.username} {this.state.age}</p>
+      </div>
+    )
+  }
+}
+、、、
