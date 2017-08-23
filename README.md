@@ -270,4 +270,4 @@ export default class BodyIndex extends React.Component {
   }
 }
 ```
-*可以用Chorme React组件中查看到state只会在相应的模块中有值，不会影响到其他模块。它属于模块自身属性。
+* 可以用Chorme React组件中查看到state只会在相应的模块中有值，不会影响到其他模块。它属于模块自身属性。
